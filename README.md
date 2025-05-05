@@ -1,6 +1,5 @@
 # Real‑Time‑Laundry‑Monitoring‑System
 
----
 
 ## Project Overview
 
@@ -55,6 +54,6 @@ Follow these steps to run the project locally.
 
 ## Real‑Time Communication Workflow
 
-1.The ESP8266 sends HTTP POST requests with machine status to the backend.  
-2.The Node.js server receives this data and broadcasts it via WebSockets to connected frontend clients.  
-3.The React frontend listens for statusUpdate events and updates the UI instantly.
+1. The ESP8266 sends HTTP POST requests with machine status to the backend.  
+2. The Node.js server receives this data and broadcasts it via WebSockets to connected frontend clients.  
+3. The React frontend listens for statusUpdate events and updates the UI instantly.
